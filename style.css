@@ -44,14 +44,14 @@ body {
   width: 100%;
 }
 
-.local_cards {
+.local-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .card {
-  margin: 20px;
+  margin: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 15px;
@@ -80,6 +80,7 @@ body {
 
 .card-descricao {
   text-align: center;
+  max-width: 200px;
 }
 
 .home {
